@@ -1,0 +1,76 @@
+@import '~font-awesome/css/font-awesome.css';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+$fa-font-path: "~font-awesome/fonts";
+
+$logoimage: "../img/logo.png";
+$color1:rgb(156, 52, 52);
+$color2:black;
+$color3:white;
+$color4:grey;
+$color5:rgb(235, 229, 229);
+
+.logo {
+  background-image: url($logoimage);
+  width: 250px;
+  height: 50px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  background-color: $color1;
+
+}
+
+.nav-item {
+  height: 3rem;
+}
+
+.active {
+  background-color: $color1;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-item {
+  line-height: 3rem;
+}
+
+.red:hover {
+  background-color: $color1;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+.at-restaurant {
+  color: $color1;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.round {
+  border-radius: 50%;
+  background-color: $color2;
+  color: $color3;
+  padding: 30px;
+}
+
+.grey {
+  background-color: $color4;
+  margin-top: 10px;
+}
+
+h2::after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
